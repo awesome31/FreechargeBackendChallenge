@@ -1,8 +1,6 @@
 const mongoose = require('mongoose');
 
-const connectionUri =
-  'mongodb+srv://rohit:rohit1997@cluster0.xhjq8.gcp.mongodb.net/upidb?retryWrites=true&w=majority';
-
+const connectionUri = '';
 mongoose
   .connect(connectionUri, {
     useNewUrlParser: true,
